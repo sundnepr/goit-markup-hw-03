@@ -22,6 +22,9 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  display: flex;
+}
 /* ========/Common styles =========*/
 
 /* =======Page Header styles ======= */
