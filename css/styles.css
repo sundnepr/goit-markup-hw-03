@@ -24,12 +24,18 @@ body {
 
 .container {
   display: flex;
+  width: 1158px;
+  padding: 0 15px 0 15px;
 }
 /* ========/Common styles =========*/
 
 /* =======Page Header styles ======= */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+}
+.page-navigation {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -41,10 +47,14 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-studio {
   color: #2e2f42;
+}
+.nav-menu {
+  display: flex;
 }
 
 .menu-item {
@@ -53,6 +63,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-right: 40px;
 }
 
 .addres-group {
