@@ -76,12 +76,11 @@ img {
 /* =======/Page Header styles ======= */
 
 /* =======section button =======*/
-.container {
-  padding: 188px 0;
-}
+
 .section-studio {
   background: #2e2f42;
   text-align: center;
+  padding: 188px 0;
 }
 .section-studio-title {
   font-weight: 700;
@@ -113,6 +112,26 @@ img {
 /* =======/section button=======*/
 
 /* ======section benefits===== */
+.section-benefits {
+  padding: 120px 0;
+}
+.benefits-list {
+  display: flex;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .benefits-list-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -127,8 +146,12 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* =====/section benefits===== */
+
+/* =====section team ==== */
 .section-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .section-team-list-item {
@@ -142,6 +165,19 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.section-team-list {
+  display: flex;
+  gap: 24px;
+}
+.section-team-list-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.container {
+  padding: 32px 0;
 }
 
 .team-list-name {
@@ -151,6 +187,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-list-jobtitle {
   font-size: 16px;
@@ -184,12 +221,13 @@ img {
   row-gap: 48px;
 }
 
-.section-portfolio-list.item:first-child {
+.section-portfolio-list.item {
   width: calc((100% - 48px) / 3);
 }
 .container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .section-portfolio-list-title {
