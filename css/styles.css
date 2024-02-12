@@ -146,12 +146,31 @@ body {
 /* =======/section button=======*/
 
 /* ======section benefits===== */
+.section-benefits{
+  padding: 120px 0;
+}
+.section-benefits-title{
+  visibility: hidden;
+}
+.benefits-list{
+display: flex;
+margin-right: 24px;
+}
+
+.benefits-list-item:first-child {
+  width: calc((100% - 72px) / 4);
+}
+.benefits-list-item:last-child{
+  margin-right: 0;
+}
+
 .benefits-list-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .benefits-list-item-text {
   font-weight: 400;
@@ -159,6 +178,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+/* ======/section benefits===== */
+/* ==========section team======== */
+.section-team {
+  padding: 120px 0;
+}
+
+.section-team-list {
+  display: flex;
 }
 .section-team {
   background-color: #f4f4fd;
@@ -175,6 +203,16 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.section-portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.section-portfolio-list .item:first-child{
+width: calc((100% - 48px) / 3);
 }
 
 .team-list-name {
@@ -196,6 +234,14 @@ body {
 /* ======/section-team===== */
 
 /* ======section-portfilio"===== */
+.section-portfolio{
+  padding: 120px 0;
+}
+.section-team-list{
+  display: flex;
+}
+
+
 .section-portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -204,7 +250,19 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
+.section-team-list-item:first-child{
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.section-team-list-item{
+  margin-right: 24px;
+}
+.section-team-list-item:last-child{
+  margin-right: 0;
+}
+
 
 .section-portfolio-list-title {
   font-weight: 500;
@@ -225,6 +283,7 @@ body {
 /* ======page-footer==== */
 .page-footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .page-footer .logo-studio {
   font-family: "Raleway", sans-serif;
@@ -234,6 +293,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+.logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .page-footer-text {
