@@ -113,7 +113,7 @@ body {
 
 /* =======/Page Header styles ======= */
 
-/* =======section button =======*/
+/* =1======section button =======*/
 .section-studio {
   background: #2e2f42;
   text-align: center;
@@ -143,31 +143,35 @@ body {
 .section-studio-button:focus {
   background: #404bbf;
 }
-/* =======/section button=======*/
+/* =1======/section button=======*/
 
-/* ======section benefits===== */
+/* =2=====section benefits===== */
 .section-benefits{
   padding: 120px 0;
 }
-.section-benefits .title{
-overflow: hidden;
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
-.benefits .list{
+.benefits-list{
 display: flex;
 margin-right: 24px;
 }
 
-.benefits .list .item{
+.benefits-list .item{
   margin-right: 24px;
 }
-.benefits .list .item:first-child {
+.benefits-list .item:first-child {
   width: calc((100% - 72px) / 4);
 }
-.benefits .list .item:last-child{
+.benefits-list .item:last-child{
   margin-right: 0;
 }
 
-.benefits .list .item-title {
+.benefits-list .item .item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -175,15 +179,15 @@ margin-right: 24px;
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.benefits .list .item-text {
+.benefits-list .item .item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* ======/section benefits===== */
-/* ==========section team======== */
+/* =2=====/section benefits===== */
+/* =3=========section team======== */
 .section-team {
   padding: 120px 0;
 }
@@ -234,7 +238,7 @@ width: calc((100% - 48px) / 3);
   color: #434455;
 }
 
-/* ======/section-team===== */
+/* =3=====/section-team===== */
 
 /* ======section-portfilio"===== */
 .section-portfolio{
