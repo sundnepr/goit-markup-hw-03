@@ -25,7 +25,7 @@ body {
 .container {
   display: flex;
   width: 1158px;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 /* ========/Common styles =========*/
@@ -162,13 +162,10 @@ display: flex;
 margin-right: 24px;
 }
 
-.benefits-list.item{
-  margin-right: 24px;
-}
-.benefits-list.item:first-child {
+.benefits-list:first-child {
 width: calc((100% - 72px) / 4);
 }
-.benefits-list.item:last-child{
+.benefits-list:last-child{
   margin-right: 0;
 }
 
@@ -215,15 +212,16 @@ width: calc((100% - 72px) / 4);
   margin-bottom: 72px;
 }
 
-.section-team-list.item {
-  margin-right: 24px;
-}
-.section-team-list.item:first-child {
+.section-team-list:first-child {
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px;
+  border-radius: 0px 0px 4px 4px;
 }
-.section-team-list.item:last-child {
+.section-team-list.i:last-child {
   margin-right: 0;
+}
+
+.container{
+  padding: 32px 0;
 }
 
 .team-list-name {
