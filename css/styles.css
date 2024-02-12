@@ -150,13 +150,16 @@ body {
   padding: 120px 0;
 }
 .section-benefits-title{
-  visibility: hidden;
+overflow: hidden;
 }
 .benefits-list{
 display: flex;
 margin-right: 24px;
 }
 
+.benefits-list-item{
+  margin-right: 24px;
+}
 .benefits-list-item:first-child {
   width: calc((100% - 72px) / 4);
 }
@@ -294,7 +297,7 @@ width: calc((100% - 48px) / 3);
   text-transform: uppercase;
   color: #f4f4fd;
 }
-.logo {
+.logo, .logo-studio {
   display: inline-block;
   margin-bottom: 16px;
 }
