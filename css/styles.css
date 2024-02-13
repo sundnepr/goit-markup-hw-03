@@ -28,14 +28,14 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .page-navigation {
@@ -286,15 +286,15 @@ img {
 /* ======/section-portfilio"===== */
 
 /* ======page-footer==== */
-.page-footer {
+.footer {
   background: #2e2f42;
   padding: 100px 0;
 }
-.logo {
+.footer .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
-.page-footer .logo-studio {
+.footer .logo-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -304,7 +304,7 @@ img {
   color: #f4f4fd;
 }
 
-.page-footer-text {
+.footer .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
