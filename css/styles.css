@@ -28,6 +28,7 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  width: 1158px;
 }
 
 .page-navigation {
@@ -36,6 +37,7 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
 }
 
 .logo {
@@ -48,6 +50,8 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  display: flex;
+  padding: 0 15px;
 }
 
 .nav-menu {
@@ -157,11 +161,11 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.benefits-list.menu .item {
+.benefits-list.menu:first-child {
   width: calc((100% - 72px) / 4);
 }
 
-.benefits-list.item-title {
+.benefits-list .item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -207,6 +211,11 @@ img {
   padding: 32px 0;
 }
 
+.section-team-list:first-child {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-list-name {
   font-weight: 500;
   font-size: 20px;
@@ -215,9 +224,6 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
-
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 .team-list-jobtitle {
   font-size: 16px;
@@ -236,6 +242,13 @@ img {
   padding-bottom: 120px;
   display: flex;
 }
+.section-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  width: calc((100% - 48px) / 3);
+}
 .section-portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -246,16 +259,7 @@ img {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.section-portfolio-list .item {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
 
-.section-portfolio-list {
-  width: calc((100% - 48px) / 3);
-}
 .container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
