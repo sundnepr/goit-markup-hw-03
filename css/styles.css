@@ -157,7 +157,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.benefits-list.menu.item {
+.benefits-list.menu .item {
   width: calc((100% - 72px) / 4);
 }
 
