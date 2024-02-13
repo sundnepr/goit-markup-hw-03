@@ -160,7 +160,7 @@ body {
   gap: 24px;
 }
 
-.benefits-list:first-child {
+.benefits-list.item:first-child {
   width: calc((100% - 72px) / 4);
 }
 
@@ -200,6 +200,10 @@ body {
   gap: 24px;
 }
 
+.section-team-list.item:first-child {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
 .section-team-list-item {
   background-color: #ffffff;
 }
@@ -212,12 +216,9 @@ body {
   text-align: center;
   color: #2e2f42;
 }
-
-.section-team-list-item {
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
+.container {
+  padding: 32px 0;
 }
-
 .team-list-name {
   font-weight: 500;
   font-size: 20px;
@@ -225,6 +226,8 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+
+  margin-bottom: 8px;
 }
 .team-list-jobtitle {
   font-size: 16px;
@@ -259,8 +262,14 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
-.section-portfolio-list.item {
+.section-portfolio-list.item:first-child {
   width: calc((100% - 48px) / 3);
+}
+
+.container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  margin-bottom: 8px;
 }
 
 .section-portfolio-list-title {
