@@ -33,6 +33,7 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
 }
 .page-navigation {
   align-items: center;
@@ -159,7 +160,7 @@ body {
   gap: 24px;
 }
 
-.benefits-list:first-child {
+.benefits-list.item:first-child {
   width: calc((100% - 72px) / 4);
 }
 .benefits-list-item-title {
