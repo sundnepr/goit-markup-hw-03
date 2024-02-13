@@ -36,6 +36,7 @@ body {
 }
 .page-navigation {
   align-items: center;
+  display: flex;
 }
 
 .logo {
@@ -49,8 +50,6 @@ body {
   color: #4d5ae5;
 
   margin-right: 76px;
-
-  display: flex;
 }
 
 .logo-studio {
@@ -61,16 +60,14 @@ body {
   gap: 40px;
 }
 
-.nav-menu.item {
-  padding: 24px 0;
-}
-
 .menu-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+
+  padding: 24px 0;
 }
 
 .addres-group {
@@ -159,6 +156,7 @@ body {
 
 .benefits-list {
   display: flex;
+  gap: 24px;
 }
 
 .benefits-list:first-child {
@@ -173,6 +171,9 @@ body {
 
   margin-bottom: 8px;
 }
+.item-title {
+  margin-bottom: 8px;
+}
 .benefits-list-item-text {
   font-weight: 400;
   font-size: 16px;
@@ -180,8 +181,21 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* ======/section benefits====== */
+
+/* ====== section-team ===== */
+
 .section-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+.section-team-title {
+  margin-bottom: 72px;
+}
+
+.section-team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .section-team-list-item {
@@ -216,6 +230,11 @@ body {
 /* ======/section-team===== */
 
 /* ======section-portfilio"===== */
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .section-portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -224,6 +243,14 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+
+  margin-bottom: 72px;
+}
+.section-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .section-portfolio-list-title {
@@ -243,10 +270,16 @@ body {
 /* ======/section-portfilio"===== */
 
 /* ======page-footer==== */
-.page-footer {
+.footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
-.page-footer .logo-studio {
+
+.logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer .logo-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -256,7 +289,7 @@ body {
   color: #f4f4fd;
 }
 
-.page-footer-text {
+.footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
