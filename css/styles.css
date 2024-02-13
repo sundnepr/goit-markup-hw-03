@@ -28,16 +28,14 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  display: flex;
 }
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+
 .page-navigation {
   display: flex;
   align-items: center;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -234,6 +232,7 @@ img {
 .section-portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
+  display: flex;
 }
 .section-portfolio-title {
   font-weight: 700;
@@ -245,14 +244,14 @@ img {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.section-portfolio-list {
+.section-portfolio-list .item {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 
-.section-portfolio-list.item {
+.section-portfolio-list {
   width: calc((100% - 48px) / 3);
 }
 .container {
