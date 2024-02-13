@@ -34,7 +34,8 @@ img {
   display: flex;
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .page-navigation {
@@ -53,8 +54,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  display: flex;
-  padding: 0 15px;
 }
 
 .nav-menu {
