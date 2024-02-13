@@ -160,7 +160,7 @@ body {
   gap: 24px;
 }
 
-.benefits-list.item:first-child {
+.benefits-list .item:first-child {
   width: calc((100% - 72px) / 4);
 }
 
@@ -204,6 +204,7 @@ body {
 .section-team-list-item:first-child {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  background-color: #4d5ae5;
 }
 .section-team-list-item {
   background-color: #ffffff;
@@ -266,6 +267,11 @@ body {
 }
 .section-portfolio-list .item:first-child {
   width: calc((100% - 48px) / 3);
+}
+
+.container {
+  padding: 32px 0;
+  background-color: aqua;
 }
 
 .name-app {
