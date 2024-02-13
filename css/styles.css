@@ -29,6 +29,7 @@ img {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   width: 1158px;
+  display: flex;
 }
 
 .page-navigation {
@@ -242,7 +243,7 @@ img {
   padding-bottom: 120px;
   display: flex;
 }
-.section-portfolio-list {
+.section-portfolio-list.item {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
