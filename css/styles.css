@@ -64,6 +64,7 @@ body {
   align-items: center;
   padding-left: 15px;
   padding-right: 15px;
+  padding: 24px 0;
 }
 
 .logo {
@@ -84,7 +85,6 @@ body {
 .nav-menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .menu-item {
@@ -97,11 +97,11 @@ body {
 
 .addres-group {
   font-style: normal;
-  padding: 24px 0;
 }
 .header-addres {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .addres-data {
@@ -110,8 +110,6 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   display: flex;
-
-  padding: 24px 0;
 }
 
 .menu-item:hover,
@@ -221,15 +219,14 @@ body {
   gap: 24px;
 }
 
-.nj-container {
-  gap: 24px;
-  border-radius: 0px 0px 4px 4px;
-  padding: 32px 0;
-}
-
 .section-team-list-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+
+  gap: 24px;
+
+  padding: 32px 0;
 }
 
 .section-team-title {
@@ -284,6 +281,7 @@ body {
 .name-app {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .section-portfolio-title {
   font-weight: 700;
