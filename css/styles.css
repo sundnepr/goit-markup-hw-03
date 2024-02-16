@@ -94,10 +94,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .addres-group {
   font-style: normal;
+  padding: 24px 0;
 }
 .header-addres {
   display: flex;
@@ -111,6 +113,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   display: flex;
+  padding: 24px 0;
 }
 
 .menu-item:hover,
